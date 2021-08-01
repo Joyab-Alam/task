@@ -1,0 +1,142 @@
+
+
+.parent{
+    background-color: #0C66C6;
+   .has-search .form-control {
+    padding-left: 2.375rem;
+    background-color: #3B84D0;
+    border: none;
+    color: #fff !important;
+    border-radius: 2px;
+  
+    
+  
+}
+.parent__child{
+      padding: 0 15px;
+}
+.container {
+     max-width: 1250px;
+    width: 100%; 
+    margin: 0 auto;
+  
+       
+   
+      
+.nav__parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .premium{
+        button {
+    background-color: #FFC626;
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 3px;
+}
+    }
+    .notification,.message,.profile,.dotSquare,.premium {
+        margin: 0 0 0 13px;
+}
+.profile{
+    .MuiSvgIcon-root{
+        font-size: 55px;
+    }
+}
+
+.logo__search {
+    display: flex;
+    align-items: center;
+    
+.has-search
+{
+    margin-left: 20px;
+} .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+ 
+    
+
+
+}
+input:focus{
+    outline: none;
+}
+.MuiSvgIcon-root{
+    color: #A5DCFF !important;
+}
+svg.global-nav__logo {
+    color: #fff;
+    margin: 11px 0;
+}
+input{
+    height: 28px;
+}
+}
+.right__icons {
+    display: flex;
+    color: #FDF8F2;
+    align-items: center;
+}
+
+
+
+}
+
+
+}
+
+}
+.total__parent{
+    margin: 0 15px;
+}
+  .cardparent__lr {
+    display: flex;
+    justify-content: space-between;
+       
+    .right__card,.view__about {
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 38px;
+    margin-left: 10px;
+    flex:  0 0 30%;
+    text-align: left;
+     max-height: 621px;
+   
+}
+.left__card {
+    
+    
+}
+}
+       .heading__span {
+    margin-top: 20px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+@media(max-width:767px){
+    .cardparent__lr{
+        display: block;
+        
+    }
+     .cardparent__lr .right__card, .cardparent__lr .view__about{
+        margin-left: 0 ;
+    }
+   
+
+}
+@media(max-width:601px){
+    .right__icons{
+        .notification,.message,.dotSquare, .premium{
+             display: none;
+        }
+    }
+}

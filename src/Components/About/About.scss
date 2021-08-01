@@ -1,0 +1,44 @@
+.about__ln{
+     text-align: left;
+    ul {
+    list-style: none;
+        display: flex;
+    flex-wrap: wrap;
+        padding: 0;
+   
+    li{
+        margin: 10px 17px;
+        display: flex;
+        cursor: pointer;
+    }
+    
+}
+ul:after{
+         display: inline-block;
+    content: "";
+    border-top: 1px solid rgba(0, 0, 0, 0.6);;
+    width: 20rem;
+    
+    }
+    .linkcopyright {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .leftcopyright{
+        span{
+            font-weight: 500;
+            cursor: pointer;
+        }
+    }
+
+}
+}
+@media(max-width:767px){
+    .about__ln{
+            margin-top: 70px;
+            ul:after{
+                display: none;
+            }
+    }
+      
+}

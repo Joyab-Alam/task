@@ -1,0 +1,43 @@
+
+    .patent__view {
+    
+    .view__conatainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    img {
+    width: 100%;
+    max-width: 48px;
+    border-radius: 50%;
+        margin: 30px 0px;
+       
+           
+           
+
+        
+}
+.heading{
+        font-weight: 500;
+               .text{
+                   span{
+                       color: rgba(0, 0, 0, 0.6);
+                       font-size: 14px;
+                   }
+                   span:nth-child(2)::before{
+                       content: "\00B7\0020\0020\0020";
+    margin-left: -4px;
+                   }
+                   span:nth-child(2){
+                       margin-left: 4px;
+                   }
+               }
+           }
+}
+ span#viewheading{
+        font-weight: 500;
+            margin-left: 13px;
+    }
+    .viewicon{
+                color: #0C66C6  !important;
+           }
+}
